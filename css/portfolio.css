@@ -1,0 +1,71 @@
+body {
+    font-family: 'Sometype Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background: url(/TrabalhoPortfolio/assets/imgs/portfolioBG.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 48px;
+    color: white;
+}
+.container {
+    font-family: 'Sometype Mono', monospace;
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+    padding-bottom: 450px;
+    gap: 20px;    
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    background-color: #2c53a7;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.5s; 
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-position: -60px;
+
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h1{
+    padding-top: 8px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; 
+    border-radius: 3px;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.card p,h1{
+    color: white
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
