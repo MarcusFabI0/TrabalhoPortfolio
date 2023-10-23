@@ -1,0 +1,84 @@
+body {
+    font-family: 'Sometype Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background: url(/TrabalhoPortfolio/assets/imgs/contatoBG.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom:200px ;
+}
+
+h1 {
+    margin: 0;
+}
+
+.contact {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #3a3a3a00;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+h2 {
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    padding: 10px 0;
+    width: 100%;
+    color: #fff;
+
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px; 
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Sometype Mono', monospace;
+}
+
+button:hover {
+    background-color: #555;
+}
